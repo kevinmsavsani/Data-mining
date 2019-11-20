@@ -1,0 +1,21 @@
+The dataset folder consists of two files : 
+	train.txt
+	test.txt
+These files can be used for training and testing the language identification models.
+
+The class labels used are :
+	as	(Assamese)
+	bn	(Bengali)
+	en	(English)
+	oth (Hindi)
+	ne	(Named Entities)
+	amb	(Ambiguous)
+	
+Data preprocessing : Since the total number of named entities and ambiguous words are less, you can club them into a single class.
+
+
+Evaluation metrics to be used:
+	Class wise Presion, Recall, Fscore
+	Macro average Precision, Recall, Fscore and Accuracy
+	
+The raw_sentences.txt can be used to train the representation learning models.
